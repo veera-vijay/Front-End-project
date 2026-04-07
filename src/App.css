@@ -859,6 +859,9 @@ margin-top: -20px;
 .graph2 button{
   margin-top: -20px;
 }
+.search-container input{
+  color: black;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
