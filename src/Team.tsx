@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Team.css"
 
-export const Team = () => {
+export const Team :React.FC = () => {
   return (
     <div className="team">
       <div className="head2">
