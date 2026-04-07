@@ -4,9 +4,10 @@ import "./App.css"
 import { Team } from "./Team";
 import Progress from "./Progress";
 import Time  from './Time';
+// @ts-ignore
 import CanvasJSReact from "@canvasjs/react-charts";
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
-export const App = () => {
+export const App :React.FC = () => {
   const options = {
     height: 120,
     title: {

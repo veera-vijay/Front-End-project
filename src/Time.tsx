@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./Time.css";
 
 
-export const Time = () => {
+export const Time: React.FC = () => {
   const [time, setTime] = useState<string>("");
   const [running, setRunning] = useState<boolean>(true);
 
@@ -17,7 +17,7 @@ export const Time = () => {
     const minutesStr = minutes.toString().padStart(2, "0");
     const secondsStr = seconds.toString().padStart(2, "0");
 
-    setTime(`${hoursStr}:${minutesStr}:${secondsStr}`) 
+    setTime(`${hoursStr}:${minutesStr}:${secondsStr}`);
   };
 
   useEffect(() => {
@@ -32,10 +32,7 @@ export const Time = () => {
     };
   }, [running]);
 
-  // Show time immediately when component loads
-  useEffect(() => {
-    updateClock();
-  }, []);
+
 
   return (
     <>
