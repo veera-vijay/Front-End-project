@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr,2fr;
+}
+.nav{
+    background-color: red;
+}
+.main{
+    background-color: blue;
+}

@@ -1,0 +1,67 @@
+.Timecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+   height: 100%;
+  
+   background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/03/Free-Green-Backgrounds-free-download-800x500.png');
+     background-size: cover;
+    background-position: center; 
+    color: white;
+    margin-top: -5px;
+    border-radius: 20px;
+    margin-top: -10px;
+    width:180px;margin-left: -10px;
+    height: 120px;
+}
+
+.time {
+  text-align: center;
+  width: 100%;
+}
+
+.time h5 {
+  margin: 0;
+  font-size: 22px;
+  color: #ebe5e5;
+}
+
+.time h4 {
+  margin: 8px 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #eeecec;
+}
+
+.img {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.img img {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Timecontainer {
+    min-height: 120px;
+  }
+  
+  .time h5 {
+    font-size: 16px;
+  }
+  
+  .time h4 {
+    font-size: 24px;
+  }
+  
+  .img img {
+    width: 24px;
+    height: 24px;
+  }
+}

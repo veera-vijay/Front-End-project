@@ -1,0 +1,27 @@
+.Progress {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.Progress canvas {
+  max-width: 100% ;
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Progress {
+    margin-top: 0;
+  }
+  
+  .Progress canvas {
+    height: 130px;
+
+  }
+}
+  
