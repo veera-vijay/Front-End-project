@@ -260,6 +260,7 @@ export const App = () => {
               </div>
               <div className="box">
                 <div className="box1">
+                  
                   <p>Ending porjects </p>
                   <div className="first">
                     <h3 className="num">12</h3>
