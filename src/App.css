@@ -31,6 +31,7 @@ body
   
 }
 .logo img {
+  margin-top:10px;
   width: 45px;
   height: 45px;
 }
