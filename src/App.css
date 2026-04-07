@@ -92,7 +92,7 @@ body
 }
 
  .bottom {
-  margin-top:30px;
+  margin-top:-20px;
   height: 100px;
    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsei-LJmr7N13o3WYFEDXMKp8aOz39iMIQw&s');
      background-size: cover;
@@ -842,7 +842,13 @@ margin-top: -20px;
   .Settings, .Help, .Logout {
     color:gray;
   }
+  .Dashboard{
+    font-weight: bold;
+  }
  
+  .bottom{
+    margin-top: 10px;
+  }
   
 .graph2 button{
   margin-top: -20px;
