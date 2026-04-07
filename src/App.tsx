@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css"
 
-import { Team } from "./Team";
+import  Team  from "./Team";
 import Progress from "./Progress";
 import Time  from './Time';
 // @ts-ignore
