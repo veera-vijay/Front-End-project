@@ -238,7 +238,7 @@ export const App = () => {
                 <button className="import">import data</button>
               </div>
             </div>
-            {/* First Row - 4 columns */}
+            
             <div className="grid row1">
               <div className="box">
                 <div className="box1">

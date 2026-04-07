@@ -17,7 +17,7 @@ export const Time = () => {
     const minutesStr = minutes.toString().padStart(2, "0");
     const secondsStr = seconds.toString().padStart(2, "0");
 
-    setTime(`${hoursStr}:${minutesStr}:${secondsStr}`);
+    setTime(`${hoursStr}:${minutesStr}:${secondsStr}`) 
   };
 
   useEffect(() => {
